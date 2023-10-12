@@ -1,0 +1,88 @@
+body{
+    /*text-align: center;*/
+    /*background-color:black;*/
+    background-image: url("sprite/loginbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-color:black;
+}
+.welcome{
+    font-size: 20px;
+    color: gold;
+}
+.welcome h1{
+    font-size: 20px;
+    text-align: center;
+}
+.nav_bar{
+    float: right;
+    font-size: 20px;
+    height: 0;
+}
+.nav_bar p a{
+    /*position: relative;*/
+    /*float: right;*/
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0,5s;
+}
+.nav_bar p a:hover{
+    color: gold;
+}
+.ranking{
+    padding-top: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*align-items: center;*/
+    justify-content: center;
+    /*height: 100vh;*/
+}
+table{
+    width: 500px;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+/*.game{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}*/
+.game{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    /*margin-left: auto;
+    margin-right: auto;
+    width: 50%;*/
+}
+table th{
+    color: white;
+    font-size: 20px;
+    /*padding-left: 40px;*/
+    text-align: center;
+}
+td{
+    color:gold;
+    font-size: 16px;
+}
+canvas{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
